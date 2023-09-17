@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(14, 103, 11, 0.873), rgb(12, 245, 70));
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    width: 100%; 
+    display: flex;
+}
+.brandlogo{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+}
+nav ul li.brndname{
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+nav ul li{
+    font-family: 'Ubuntu', sans-serif; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li.items{
+    padding-left: 1.8rem;
+    padding-top: 25px;
+    
+}
+.containerbody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    height: 70vh;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-family: 'Varela Round', sans-serif; 
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.content_area{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+}
+.the_songs_list{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.songBanner img{
+    width: 260px;
+    height: 250px;
+    border-radius: solid, green, 2px;
+    padding: 10px;
+    justify-content:end;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1));
+
+}
+
+.bottom{
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 1));
+    min-height: 120px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+}
+.songtitle{
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif; 
+
+}
+#mypregressbar{
+    min-width: 95%;
+    cursor: pointer;
+}
+
+.musicicons{
+    width: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.songlist{
+    background-color: aliceblue;
+    width: 80%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.songlist:hover{
+    background-color: black;
+    border: solid white 2px;
+    color: aliceblue;
+    cursor: pointer;
+} 
+.gifi{
+    opacity: 0;
+    transition: opacity 0.9s ease-in;
+    width: 100px; 
+    height: 50px;
+}
+
+/*opacity: 0;
+    transition: opacity 1s ease-in-out;*/
